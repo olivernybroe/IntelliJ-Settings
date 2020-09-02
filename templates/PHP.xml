@@ -1,0 +1,26 @@
+<templateSet group="PHP">
+  <template name="foreign" value="$table-&gt;unsignedInteger('$tableName$')-&gt;change();&#10;$table-&gt;foreign('$tableName$')-&gt;references('id')-&gt;on('$otherTable$')-&gt;onDelete('$onDelete$');" description="create a foregin key" toReformat="false" toShortenFQNames="true">
+    <variable name="tableName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="otherTable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="onDelete" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="foreignEmployee" value="$table-&gt;unsignedInteger('created_by')-&gt;nullable()-&gt;change();&#10;$table-&gt;unsignedInteger('updated_by')-&gt;nullable()-&gt;change();&#10;$table-&gt;foreign('created_by')-&gt;references('id')-&gt;on('employees')-&gt;onDelete('SET NULL');&#10;$table-&gt;foreign('updated_by')-&gt;references('id')-&gt;on('employees')-&gt;onDelete('SET NULL');" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="foreignEconomic" value="Schema::table('economic_$economicTable$', function (Blueprint $table) {&#10;    $table-&gt;unsignedInteger('agreement_id')-&gt;change();&#10;    $table-&gt;foreign('agreement_id')-&gt;references('id')-&gt;on('agreements')-&gt;onDelete('cascade');&#10;    $table-&gt;unique('utecca_id');&#10;    $table-&gt;unique(['agreement_id', 'economic_id']);&#10;    $table-&gt;foreign('utecca_id')-&gt;references('id')-&gt;on('$economicTable$')-&gt;onDelete('cascade');&#10;});" description="create economic foreign keys" toReformat="true" toShortenFQNames="true">
+    <variable name="economicTable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="foreignAgreement" value="$table-&gt;unsignedInteger('agreement_id')-&gt;change();&#10;$table-&gt;foreign('agreement_id')-&gt;references('id')-&gt;on('agreements')-&gt;onDelete('cascade');&#10;$table-&gt;unique(['agreement_id', 'identifier']);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
