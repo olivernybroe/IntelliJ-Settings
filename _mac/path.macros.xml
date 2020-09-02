@@ -1,0 +1,5 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="code" value="$USER_HOME$/Code" />
+  </component>
+</application>
