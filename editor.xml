@@ -1,8 +1,5 @@
 <application>
   <component name="DefaultFont">
-    <option name="LINE_SPACING" value="1.5" />
     <option name="USE_LIGATURES" value="true" />
-  <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
 </application>
