@@ -27,6 +27,10 @@
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
+          <option name="url" value="https://github.com/nunomaduro/phpinsights.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
           <option name="url" value="https://github.com/olivernybroe/phpstorm-demo-plugin.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
