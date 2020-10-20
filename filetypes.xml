@@ -1,11 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping pattern="composer.lock" type="JSON" />
+      <mapping pattern="composer.lock" type="JSON" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <removed_mapping pattern="phpunit.xml.dist" type="XML" />
+      <mapping pattern="phpunit.xml.dist" type="XML" />
     </extensionMap>
   </component>
 </application>
