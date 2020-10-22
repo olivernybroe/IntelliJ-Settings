@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="167.172.160.191" id="35cc011f-3230-4bd2-8cf4-ca418e9d38ec" port="22" customName="Worksome Bastion" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="Worksome Bastion" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
