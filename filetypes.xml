@@ -2,9 +2,9 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="sentry-release.yml" type="AUTO_DETECTED" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="phpunit.xml.dist" type="XML" />
     </extensionMap>
   </component>
 </application>
