@@ -21,6 +21,9 @@
     <driver id="derby.embedded">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="derby.embedded">
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="derby.remote">
       <option name="auto-sync" value="true" />
     </driver>
