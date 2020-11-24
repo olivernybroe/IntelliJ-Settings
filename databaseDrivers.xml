@@ -6,9 +6,6 @@
     <driver id="clickhouse">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="couchbase_query">
-      <option name="auto-sync" value="true" />
-    </driver>
     <driver id="db2.11">
       <option name="auto-sync" value="false" />
     </driver>
@@ -102,13 +99,7 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sqlite.xerial">
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.31.1" />
       <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
-      <option name="format-sources-on-sync" value="true" />
-      <option name="send-app-info" value="true" />
-      <option name="source-loading" value="USER_SOURCES" />
-      <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="sybase.jtds">
       <option name="auto-sync" value="true" />
@@ -117,6 +108,9 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="vertica">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="couchbase_query" name="">
       <option name="auto-sync" value="true" />
     </driver>
   </component>
