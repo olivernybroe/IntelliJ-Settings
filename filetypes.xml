@@ -6,7 +6,6 @@
       <mapping pattern="stamp-cert-sha256" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="messages" type="PLAIN_TEXT" />
-      <removed_mapping pattern=".analysis_options" type="YAML" />
       <mapping pattern="sentry-release.yml" type="AUTO_DETECTED" />
     </extensionMap>
   </component>
