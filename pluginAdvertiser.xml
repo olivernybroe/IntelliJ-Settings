@@ -2,6 +2,51 @@
   <component name="PluginAdvertiserExtensions">
     <option name="localState">
       <map>
+        <entry key="*.9.png">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.aab">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.aar">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.aidl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.android_data_binding">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.ane">
           <value>
             <plugin>
@@ -23,8 +68,8 @@
         <entry key="*.apk">
           <value>
             <plugin>
-              <option name="myPluginId" value="com.intellij" />
-              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -70,7 +115,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php.blade" />
               <option name="myPluginName" value="Blade" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -92,6 +136,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.cgo">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.go" />
+              <option name="myPluginName" value="Go" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.chm">
           <value>
             <plugin>
@@ -110,12 +162,38 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.cjsx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.coffeescript" />
+              <option name="myPluginName" value="CoffeeScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.class">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.java" />
+              <option name="myPluginName" value="Java" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.coffee">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.coffeescript" />
+              <option name="myPluginName" value="CoffeeScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.composerlog">
           <value>
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -124,6 +202,14 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.config">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Lombook Plugin" />
+              <option name="myPluginName" value="Lombok" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -160,7 +246,23 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cvp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="DevKit" />
+              <option name="myPluginName" value="Plugin DevKit" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.dart">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Dart" />
+              <option name="myPluginName" value="Dart" />
             </plugin>
           </value>
         </entry>
@@ -178,6 +280,33 @@
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
               <option name="myPluginName" value="Database Tools and SQL" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.def">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myPluginName" value="Kotlin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.dependency diagram">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="spy-js" />
+              <option name="myPluginName" value="Spy-js" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.dex">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -205,6 +334,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.dockerfile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -307,11 +445,83 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.form">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.uiDesigner" />
+              <option name="myPluginName" value="UI Designer" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.fs">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ft">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myPluginName" value="Velocity" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ftl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.freemarker" />
+              <option name="myPluginName" value="FreeMarker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ftlh">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.freemarker" />
+              <option name="myPluginName" value="FreeMarker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ftlx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.freemarker" />
+              <option name="myPluginName" value="FreeMarker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.fxml">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.gant">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.groovy" />
+              <option name="myPluginName" value="Groovy" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.gdsl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.groovy" />
+              <option name="myPluginName" value="Groovy" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -334,11 +544,36 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.go">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.go" />
+              <option name="myPluginName" value="Go" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.go2">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.go" />
+              <option name="myPluginName" value="Go" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.gql">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.lang.jsgraphql" />
               <option name="myPluginName" value="JS GraphQL" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.gradle">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.groovy" />
+              <option name="myPluginName" value="Groovy" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -383,11 +618,47 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.groovy">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.groovy" />
+              <option name="myPluginName" value="Groovy" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.gy">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.groovy" />
+              <option name="myPluginName" value="Groovy" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.haml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.haml" />
+              <option name="myPluginName" value="Haml" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.har">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.hgignore">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="hg4idea" />
+              <option name="myPluginName" value="Mercurial" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -406,7 +677,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -496,7 +766,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -536,11 +805,29 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.java">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.java" />
+              <option name="myPluginName" value="Java" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.jbig2">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.platform.images" />
               <option name="myPluginName" value="com.intellij.platform.images" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.jfr">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.java" />
+              <option name="myPluginName" value="com.intellij.java" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -653,6 +940,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.jsf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myPluginName" value="Java Server Pages (JSP)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.jshintrc">
           <value>
             <plugin>
@@ -680,6 +976,33 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.jsp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myPluginName" value="Java Server Pages (JSP)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.jspf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myPluginName" value="Java Server Pages (JSP)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.jspx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myPluginName" value="Java Server Pages (JSP)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.jsx">
           <value>
             <plugin>
@@ -689,11 +1012,101 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.kjsm">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myPluginName" value="Kotlin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.klib">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.knm">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myPluginName" value="Kotlin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.kotlin_builtins">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myPluginName" value="Kotlin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.kotlin_metadata">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myPluginName" value="Kotlin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.kotlin_module">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myPluginName" value="Kotlin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.kt">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myPluginName" value="Kotlin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.kts">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myPluginName" value="Kotlin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.less">
           <value>
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.less" />
               <option name="myPluginName" value="Less" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.li">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.litcoffee">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.coffeescript" />
+              <option name="myPluginName" value="CoffeeScript" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -725,6 +1138,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.mf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.java" />
+              <option name="myPluginName" value="Java" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.mjs">
           <value>
             <plugin>
@@ -748,7 +1170,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -766,6 +1187,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.otf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -829,7 +1259,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -838,7 +1267,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -847,7 +1275,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -856,7 +1283,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -865,7 +1291,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -874,7 +1299,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -883,7 +1307,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -892,7 +1315,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -901,7 +1323,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -919,7 +1340,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -946,6 +1366,15 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.localization" />
               <option name="myPluginName" value="GNU GetText files support (*.po)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.pom">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -986,11 +1415,29 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.pro">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.properties">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.properties" />
+              <option name="myPluginName" value="Properties" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.psd">
           <value>
             <plugin>
-              <option name="myPluginId" value="com.intellij.platform.images" />
-              <option name="myPluginName" value="com.intellij.platform.images" />
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1040,6 +1487,32 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.routes">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="org.intellij.scala" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.rs">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.rsh">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.rst">
           <value>
             <plugin>
@@ -1049,12 +1522,60 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.s">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.go" />
+              <option name="myPluginName" value="Go" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.sass">
           <value>
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.sass" />
               <option name="myPluginName" value="Sass" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.sbt">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="Scala" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.sbts">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="Scala" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.sc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="Scala" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.scala">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="Scala" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.scala.html">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="org.intellij.scala" />
             </plugin>
           </value>
         </entry>
@@ -1103,6 +1624,23 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.sig">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="Scala" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.smali">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.android.tools.idea.smali" />
+              <option name="myPluginName" value="Smali Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.snap">
           <value>
             <plugin>
@@ -1112,11 +1650,37 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.snippet">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.java" />
+              <option name="myPluginName" value="Java" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.sql">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
               <option name="myPluginName" value="Database Tools and SQL" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ssp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="org.intellij.scala" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.styl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.stylus" />
+              <option name="myPluginName" value="Stylus" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1136,6 +1700,41 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.tag">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myPluginName" value="Java Server Pages (JSP)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.tagf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myPluginName" value="Java Server Pages (JSP)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.tagx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myPluginName" value="Java Server Pages (JSP)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.tasty">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="Scala" />
             </plugin>
           </value>
         </entry>
@@ -1180,6 +1779,14 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.trace">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1211,6 +1818,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.ttf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.twig">
           <value>
             <plugin>
@@ -1238,6 +1854,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.vm">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myPluginName" value="Velocity" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.vsd">
           <value>
             <plugin>
@@ -1247,11 +1872,29 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.vsl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myPluginName" value="Velocity" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.vue">
           <value>
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.vue" />
               <option name="myPluginName" value="Vue.js" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.wadl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1266,6 +1909,15 @@
           </value>
         </entry>
         <entry key="*.wbmp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.platform.images" />
+              <option name="myPluginName" value="com.intellij.platform.images" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.webp">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.platform.images" />
@@ -1297,6 +1949,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.xjsp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myPluginName" value="Java Server Pages (JSP)" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1414,6 +2075,14 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.php" />
               <option name="myPluginName" value="PHP" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key=".analysis_options">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myPluginName" value="YAML" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1423,6 +2092,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key=".classpath">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
+              <option name="myPluginName" value="Eclipse Interoperability" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1542,6 +2220,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key=".project">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
+              <option name="myPluginName" value="Eclipse Interoperability" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key=".stylelintignore">
           <value>
             <plugin>
@@ -1565,6 +2252,51 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile.fast-jar">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile.jlink">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile.jvm">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="Dockerfile.native">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Docker" />
+              <option name="myPluginName" value="Docker" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1596,6 +2328,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="go.mod">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.go" />
+              <option name="myPluginName" value="Go" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="http-client.cookies">
           <value>
             <plugin>
@@ -1623,12 +2363,83 @@
             </plugin>
           </value>
         </entry>
+        <entry key="logback.groovy">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.groovy" />
+              <option name="myPluginName" value="Groovy" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="lombok.config">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Lombook Plugin" />
+              <option name="myPluginName" value="Lombok" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="maven.config">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.maven" />
+              <option name="myPluginName" value="Maven" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="multidex-config.txt">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="org.codehaus.groovy.runtime.ExtensionModule">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.groovy" />
+              <option name="myPluginName" value="Groovy" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="phpunit.xml.dist">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="proguard-*.txt">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="proguard.cfg">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.android" />
+              <option name="myPluginName" value="Android" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="routes">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myPluginName" value="org.intellij.scala" />
             </plugin>
           </value>
         </entry>
@@ -1697,6 +2508,51 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="#com.intellij.j2ee.web.jsr45.JSR45ConfigurationFactory">
+                    <value>
+                      <FeaturePluginData displayName="JSR45 Compatible Server" pluginName="Debugger Support for JSP (JSR45)" pluginId="JSR45Plugin" />
+                    </value>
+                  </entry>
+                  <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+                    <value>
+                      <FeaturePluginData displayName="Tomcat Server" pluginName="Tomcat and TomEE" pluginId="Tomcat" />
+                    </value>
+                  </entry>
+                  <entry key="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Plugin" pluginName="Plugin DevKit" pluginId="DevKit" />
+                    </value>
+                  </entry>
+                  <entry key="AndroidJUnit">
+                    <value>
+                      <FeaturePluginData displayName="Android JUnit" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="AndroidRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Android App" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="AndroidTestRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Android Instrumented Tests" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="AntRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Ant Target" pluginName="Ant" pluginId="AntSupport" />
+                    </value>
+                  </entry>
+                  <entry key="Application">
+                    <value>
+                      <FeaturePluginData displayName="Application" pluginName="Java" pluginId="com.intellij.java" />
+                    </value>
+                  </entry>
+                  <entry key="BSP_TEST_RUN_CONFIGURATION">
+                    <value>
+                      <FeaturePluginData displayName="BSP test" pluginName="Scala" pluginId="org.intellij.scala" />
+                    </value>
+                  </entry>
                   <entry key="ChromiumRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
@@ -1712,9 +2568,34 @@
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" />
                     </value>
                   </entry>
+                  <entry key="CucumberJavaRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Cucumber Java" pluginName="Cucumber for Java" pluginId="cucumber-java" />
+                    </value>
+                  </entry>
                   <entry key="CypressConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Cypress" pluginName="Cypress Support" pluginId="me.mbolotov.cypress" />
+                    </value>
+                  </entry>
+                  <entry key="DartCommandLineRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Dart Command Line App" pluginName="Dart" pluginId="Dart" />
+                    </value>
+                  </entry>
+                  <entry key="DartRemoteDebugConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Dart Remote Debug" pluginName="Dart" pluginId="Dart" />
+                    </value>
+                  </entry>
+                  <entry key="DartTestRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Dart Test" pluginName="Dart" pluginId="Dart" />
+                    </value>
+                  </entry>
+                  <entry key="DartWebdevConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Dart Web" pluginName="Dart" pluginId="Dart" />
                     </value>
                   </entry>
                   <entry key="DatabaseScript">
@@ -1727,9 +2608,89 @@
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
                     </value>
                   </entry>
+                  <entry key="FlutterBazelRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Flutter (Bazel)" pluginName="Flutter" pluginId="io.flutter" />
+                    </value>
+                  </entry>
+                  <entry key="FlutterBazelTestConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Flutter Test (Bazel)" pluginName="Flutter" pluginId="io.flutter" />
+                    </value>
+                  </entry>
+                  <entry key="FlutterRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Flutter" pluginName="Flutter" pluginId="io.flutter" />
+                    </value>
+                  </entry>
+                  <entry key="FlutterTestConfigType">
+                    <value>
+                      <FeaturePluginData displayName="Flutter Test" pluginName="Flutter" pluginId="io.flutter" />
+                    </value>
+                  </entry>
+                  <entry key="GlassfishConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="GlassFish Server" pluginName="GlassFish" pluginId="GlassFish" />
+                    </value>
+                  </entry>
+                  <entry key="GoAppEngineRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Go App Engine" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
+                    </value>
+                  </entry>
+                  <entry key="GoApplicationRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Go Build" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
+                    </value>
+                  </entry>
+                  <entry key="GoRemoteDebugConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Go Remote" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
+                    </value>
+                  </entry>
+                  <entry key="GoTestRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Go Test" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
+                    </value>
+                  </entry>
+                  <entry key="GradleRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Gradle" pluginName="Gradle" pluginId="com.intellij.gradle" />
+                    </value>
+                  </entry>
+                  <entry key="GroovyScriptRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Groovy" pluginName="Groovy" pluginId="org.intellij.groovy" />
+                    </value>
+                  </entry>
                   <entry key="HttpClient.HttpRequestRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="HTTP Request" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" />
+                    </value>
+                  </entry>
+                  <entry key="JBossConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="JBoss Server" pluginName="WildFly" pluginId="JBoss" />
+                    </value>
+                  </entry>
+                  <entry key="JUnit">
+                    <value>
+                      <FeaturePluginData displayName="JUnit" pluginName="JUnit" pluginId="JUnit" />
+                    </value>
+                  </entry>
+                  <entry key="JarApplication">
+                    <value>
+                      <FeaturePluginData displayName="JAR Application" pluginName="Java" pluginId="com.intellij.java" />
+                    </value>
+                  </entry>
+                  <entry key="Java Scratch">
+                    <value>
+                      <FeaturePluginData displayName="Java Scratch" pluginName="Java" pluginId="com.intellij.java" />
+                    </value>
+                  </entry>
+                  <entry key="JavaScriptNodeJsTraceType">
+                    <value>
+                      <FeaturePluginData displayName="Spy-js for Node.js" pluginName="Spy-js" pluginId="spy-js" />
                     </value>
                   </entry>
                   <entry key="JavaScriptTestRunnerJest">
@@ -1742,9 +2703,49 @@
                       <FeaturePluginData displayName="Protractor" pluginName="JavaScript and TypeScript" pluginId="JavaScript" />
                     </value>
                   </entry>
+                  <entry key="JavaScriptTraceType">
+                    <value>
+                      <FeaturePluginData displayName="Spy-js" pluginName="Spy-js" pluginId="spy-js" />
+                    </value>
+                  </entry>
                   <entry key="JavascriptDebugType">
                     <value>
                       <FeaturePluginData displayName="JavaScript Debug" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                    </value>
+                  </entry>
+                  <entry key="JetRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="JettyConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Jetty Server" pluginName="Jetty" pluginId="Jetty" />
+                    </value>
+                  </entry>
+                  <entry key="KotlinJavaScriptTestRunnerProtractor">
+                    <value>
+                      <FeaturePluginData displayName="Protractor (Kotlin)" pluginName="org.jetbrains.kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="KotlinStandaloneScriptRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin script" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="MUnitRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="MUnit" pluginName="Scala" pluginId="org.intellij.scala" />
+                    </value>
+                  </entry>
+                  <entry key="MavenRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Maven" pluginName="Maven" pluginId="org.jetbrains.idea.maven" />
+                    </value>
+                  </entry>
+                  <entry key="MicronautRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Micronaut" pluginName="Micronaut" pluginId="com.intellij.micronaut" />
                     </value>
                   </entry>
                   <entry key="NodeJSConfigurationType">
@@ -1797,9 +2798,39 @@
                       <FeaturePluginData displayName="PHP Web Page" pluginName="PHP" pluginId="com.jetbrains.php" />
                     </value>
                   </entry>
+                  <entry key="Play2FrameworkRunConfigurations">
+                    <value>
+                      <FeaturePluginData displayName="Play 2 App" pluginName="org.intellij.scala" pluginId="org.intellij.scala" />
+                    </value>
+                  </entry>
                   <entry key="ReactNative">
                     <value>
                       <FeaturePluginData displayName="React Native" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                    </value>
+                  </entry>
+                  <entry key="Remote">
+                    <value>
+                      <FeaturePluginData displayName="Remote JVM Debug" pluginName="Java" pluginId="com.intellij.java" />
+                    </value>
+                  </entry>
+                  <entry key="SbtRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="sbt Task" pluginName="Scala" pluginId="org.intellij.scala" />
+                    </value>
+                  </entry>
+                  <entry key="ScalaAmmoniteRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Ammonite" pluginName="Scala" pluginId="org.intellij.scala" />
+                    </value>
+                  </entry>
+                  <entry key="ScalaScriptConsoleRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Scala REPL" pluginName="Scala" pluginId="org.intellij.scala" />
+                    </value>
+                  </entry>
+                  <entry key="ScalaTestRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="ScalaTest" pluginName="Scala" pluginId="org.intellij.scala" />
                     </value>
                   </entry>
                   <entry key="ShConfigurationType">
@@ -1807,9 +2838,29 @@
                       <FeaturePluginData displayName="Shell Script" pluginName="Shell Script" pluginId="com.jetbrains.sh" />
                     </value>
                   </entry>
+                  <entry key="Specs2RunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Specs2" pluginName="Scala" pluginId="org.intellij.scala" />
+                    </value>
+                  </entry>
+                  <entry key="SwaggerCodegen">
+                    <value>
+                      <FeaturePluginData displayName="Swagger Codegen" pluginName="OpenAPI Specifications" pluginId="com.intellij.swagger" />
+                    </value>
+                  </entry>
                   <entry key="TSqltConfigurationType">
                     <value>
                       <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                    </value>
+                  </entry>
+                  <entry key="TestNG">
+                    <value>
+                      <FeaturePluginData displayName="TestNG" pluginName="TestNG" pluginId="TestNG-J" />
+                    </value>
+                  </entry>
+                  <entry key="TomeeConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="TomEE Server" pluginName="Tomcat and TomEE" pluginId="Tomcat" />
                     </value>
                   </entry>
                   <entry key="UtPlSqlConfigurationType">
@@ -1817,9 +2868,24 @@
                       <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
                     </value>
                   </entry>
+                  <entry key="WebLogic Instance">
+                    <value>
+                      <FeaturePluginData displayName="WebLogic Server" pluginName="WebLogic" pluginId="Weblogic" />
+                    </value>
+                  </entry>
+                  <entry key="WebSphereRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="WebSphere Server" pluginName="WebSphere" pluginId="WebSphere" />
+                    </value>
+                  </entry>
                   <entry key="XSLT">
                     <value>
                       <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
+                    </value>
+                  </entry>
+                  <entry key="docker-deploy">
+                    <value>
+                      <FeaturePluginData displayName="Docker" pluginName="IDEA CORE" pluginId="com.intellij" />
                     </value>
                   </entry>
                   <entry key="js.build_tools.grunt">
@@ -1842,6 +2908,11 @@
                       <FeaturePluginData displayName="Mocha" pluginName="Node.js" pluginId="NodeJS" />
                     </value>
                   </entry>
+                  <entry key="uTestRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="utest" pluginName="Scala" pluginId="org.intellij.scala" />
+                    </value>
+                  </entry>
                 </map>
               </option>
             </FeaturePluginsList>
@@ -1849,7 +2920,112 @@
         </entry>
         <entry key="com.intellij.facetType">
           <value>
-            <FeaturePluginsList />
+            <FeaturePluginsList>
+              <option name="featureMap">
+                <map>
+                  <entry key="android">
+                    <value>
+                      <FeaturePluginData displayName="Android" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="android-gradle">
+                    <value>
+                      <FeaturePluginData displayName="Android-Gradle" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="apk">
+                    <value>
+                      <FeaturePluginData displayName="APK" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="java-gradle">
+                    <value>
+                      <FeaturePluginData displayName="Java-Gradle" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="javaeeApplication">
+                    <value>
+                      <FeaturePluginData displayName="JavaEE Application" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                    </value>
+                  </entry>
+                  <entry key="kotlin-language">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="native-android-gradle">
+                    <value>
+                      <FeaturePluginData displayName="Native-Android-Gradle" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FeaturePluginsList>
+          </value>
+        </entry>
+        <entry key="com.intellij.packaging.artifacts.ArtifactType">
+          <value>
+            <FeaturePluginsList>
+              <option name="featureMap">
+                <map>
+                  <entry key="apk">
+                    <value>
+                      <FeaturePluginData displayName="Android application" pluginName="Android" pluginId="org.jetbrains.android" />
+                    </value>
+                  </entry>
+                  <entry key="ear">
+                    <value>
+                      <FeaturePluginData displayName="JavaEE Application: Archive" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                    </value>
+                  </entry>
+                  <entry key="ejb-jar">
+                    <value>
+                      <FeaturePluginData displayName="EJB Application: Archive" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                    </value>
+                  </entry>
+                  <entry key="exploded-ear">
+                    <value>
+                      <FeaturePluginData displayName="JavaEE Application: Exploded" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                    </value>
+                  </entry>
+                  <entry key="exploded-ejb">
+                    <value>
+                      <FeaturePluginData displayName="EJB Application: Exploded" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                    </value>
+                  </entry>
+                  <entry key="exploded-war">
+                    <value>
+                      <FeaturePluginData displayName="Web Application: Exploded" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                    </value>
+                  </entry>
+                  <entry key="jar">
+                    <value>
+                      <FeaturePluginData displayName="JAR" pluginName="Java" pluginId="com.intellij.java" />
+                    </value>
+                  </entry>
+                  <entry key="javafx">
+                    <value>
+                      <FeaturePluginData displayName="JavaFx application" pluginName="JavaFX" pluginId="org.jetbrains.plugins.javaFX" />
+                    </value>
+                  </entry>
+                  <entry key="javafx-preloader">
+                    <value>
+                      <FeaturePluginData displayName="JavaFx preloader" pluginName="JavaFX" pluginId="org.jetbrains.plugins.javaFX" />
+                    </value>
+                  </entry>
+                  <entry key="plain">
+                    <value>
+                      <FeaturePluginData displayName="Other" pluginName="Java" pluginId="com.intellij.java" />
+                    </value>
+                  </entry>
+                  <entry key="war">
+                    <value>
+                      <FeaturePluginData displayName="Web Application: Archive" pluginName="Java EE Platform" pluginId="com.intellij.javaee" />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FeaturePluginsList>
           </value>
         </entry>
       </map>
