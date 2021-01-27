@@ -6,6 +6,7 @@
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
+  <action id="HippieBackwardCompletion" />
   <action id="MinimizeCurrentWindow" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
