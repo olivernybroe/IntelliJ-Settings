@@ -2,14 +2,15 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="sentry-release.yml" type="AUTO_DETECTED" />
-      <mapping ext="ng" type="HTML" />
+      <removed_mapping ext="ng" type="HTML" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="stamp-cert-sha256" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="messages" type="PLAIN_TEXT" />
-      <mapping pattern="tsconfig.e2e.json" type="tsconfig" />
-      <mapping pattern="tsconfig.spec.json" type="tsconfig" />
-      <mapping pattern="tsconfig.app.json" type="tsconfig" />
-      <mapping pattern="tsconfig.lib.json" type="tsconfig" />
+      <removed_mapping pattern="tsconfig.app.json" type="tsconfig" />
+      <removed_mapping pattern="tsconfig.spec.json" type="tsconfig" />
+      <removed_mapping pattern="tsconfig.e2e.json" type="tsconfig" />
+      <removed_mapping pattern="tsconfig.lib.json" type="tsconfig" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <mapping ext="gradle.kts" type="Kotlin" />
